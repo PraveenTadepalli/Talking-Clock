@@ -38,7 +38,7 @@ def process_input(input_string=None):
         hour,minute = map(int,curr_time.split(":"))
     
     #Validate Hour  and Minutes passed - They cannot be Negative 
-    if hour < 0 or minute < 0:
+    if hour < 0 or minute < 0 or hour > 12 or hour > 60:
         print("Hours/Minutes cannot be Negative")
         return False
     else:
