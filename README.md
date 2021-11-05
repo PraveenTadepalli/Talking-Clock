@@ -8,3 +8,7 @@ This repository has below files.
   2. main.py 		- Execute this code from command line to get a 'Human Firendly Test' of current time/given time.
   3. module.py 		- This module consistes of required functions to support app.py/main.py 
   4. test_cases_py 	- This module holds various test cases for the functions defined in module.py. Execute this module to test various test cases
+  
+ Software Dependencies:
+ Python - 3.7.0
+ Flask  - 1.0.2
