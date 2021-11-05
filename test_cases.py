@@ -5,10 +5,15 @@ Created on Fri Nov  5 17:06:33 2021
 @author: praveent
 
 Purpose: 
-    This Program runs various Test Cases
-    1. Pass invalid_test_inputs in this aray and it should not error, instead
-        a error message should be displayed.
-    2. The code in doc string will produce time for the range provided in the for loops. 
+    This Program runs various Test Cases. (So please change this script as per below points)
+    1. Pass invalid test inputs in 'invalid_test_inputs' aray and it should not error, 
+       instead an error message should be displayed.
+    2. The code in doc string will produce valid time convertd to text for the 
+       range provided in the for loops.
+
+Instructions to Run:
+    Run this module from command line as below:
+        $: python test_cases.py
 """
 from module import process_input,time_to_text
  
